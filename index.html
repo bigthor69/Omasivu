@@ -10,39 +10,18 @@
         width: 95%;
         }
   </style>
-    <script>
-        function PlaySound(on) {
-        var path = "./on.mp3"
-        var snd = new Audio("./on.mp3");
-        snd.play();
-    }
-    </script>
-        
-        <script>
-            function PlaySound(viis) {
-            var path = "./5k5.mp3"
-            var snd = new Audio("./5k5.mp3");
-            snd.play();
-        }
-        </script>
-           
-           <script>
-                function PlaySound(tiikeri) {
-                var path = "./bengalintiikeri.mp3"
-                var snd = new Audio("./bengalintiikeri.mp3");
-                snd.play();
-            }
-            </script>
-    <style>
+   <style>
         button {
             text-align: center;
         font-size: 28px;
         padding: 20px;
         width: 200px;
+        border: 2px solid black;
+        border-radius: 15px;
         }
     </style>
 </head>
-<!--siisti sivu eiks vaa-->
+<!--siisti sivu eiks vaa, menny kokonainen päivä tässä :))-->
 <body>
 
 <div class="info">
@@ -70,7 +49,7 @@
     <h4>Mikä Niilossa kiinnostaa?</h4>
         <p>Niilo raottaa ovea syrjäytyneen aikuisen elämään. Niilo on yhtä aikaa sekä hulvattoman hauska, että traaginen ihmiskohtalo.</p>
     <h4>Onko Niilolla kehitysvammaa?</h4>
-        <p>Niilolle diagnosoitiin F81.3 "Monimuotoinen oppimiskyvyn häiriö" marraskuussa 2018.</p>
+        <p>Niilolle diagnosoitiin F81.3 "Monimuotoinen oppimiskyvyn häiriö" marraskuussa 2018 kuten myös dysleksia.</p>
     <h4>Onko Niilo käynyt peruskoulun?</h4>
         <p>Niilo kävi ekan luokan kahdesti ja joutui apukouluun. Hän on kertonut saaneensa kotiläksyjä kesälomiksi. </p>
     <h4>Onko Niilolla koulutus ja/tai työpaikka?</h4>
@@ -86,7 +65,7 @@
     <h3>Yhteystietoja</h3>
     <p>Sähköposti: aatu.penttinen05@gmail.com</p>
     <p>Puhelinnumero: 0405530608</p>
-    <p>Tilinumero <em>(antakaa rahaa pls tähän sivuun meni paljon aikaa)</em>: FI21 5290 3320 0336 42</p>
+    <p>Tilinumero <em>(antakaa rahaa pls tähän sivuun meni paljon aikaa)</em>: <b>FI21 5290 3320 0336 42</b></p>
 </div>
 
 <div class="niilokuva">
@@ -106,7 +85,7 @@
 <div class="näyttelijättxt">
     <h2>Niilon kanavalla vierailevia henkilöitä:</h2>
     <br>
-    <p>VT, eli Vieraileva Tähti on Niilon kaveri. Niilo tapasi vtn joitakin vuosia sitten samassa kuntouttavassa. VT on näkynyt niilon videoilla monen vuoden ajan mutta nykypäivänä ei niinkään.</p>
+    <h4>VT, eli Vieraileva Tähti on Niilon kaveri. Niilo tapasi vtn joitakin vuosia sitten samassa kuntouttavassa. VT on näkynyt niilon videoilla monen vuoden ajan mutta nykypäivänä ei niinkään.</h4>
 </div>
 
 <div class="näyttelijät2">
@@ -115,7 +94,7 @@
 
 <div class="onniteksti">
     <h3><a href="https://www.youtube.com/@onni4522" target="_blank">Onni</a></h3>
-    <p>Onni on myös Niilon kaveri. Häntä nähdään enemmän Niilon videolla nykypäivänä kun vt:tä.</p>
+    <h4>Onni on myös Niilon kaveri. Häntä nähdään enemmän Niilon videolla nykypäivänä kun vt:tä.</h4>
 </div>
 
 <div class="näyttelijät">
@@ -135,12 +114,12 @@
 </div>
 
 <div class="onnappi">
-    <audio id="on" src="on.mp3"></audio>
+    <audio id="on" src="assets/on.mp3"></audio>
     <button onclick="document.getElementById('on').play()"> On!</button>
 </div>
 
 <div class="viiskviisnappi">
-    <audio id="5k5" src="5k5.mp3"></audio>
+    <audio id="5k5" src="assets/5k5.mp3"></audio>
     <button onclick="document.getElementById('5k5').play()"> 5/5!</button>
 </div>
 
@@ -149,8 +128,73 @@
 </div>
 
 <div class="bengalintiikerinappi">
-    <audio id="bengalintiikeri" src="bengalintiikeri.mp3"></audio>
+    <audio id="bengalintiikeri" src="assets/bengalintiikeri.mp3"></audio>
     <button onclick="document.getElementById('bengalintiikeri').play()"> Bengalintiikeri</button>
+</div>
+
+<div class="diudiudiunappi">
+    <audio id="diudiudiu" src="assets/diudiudiu.mp3"></audio>
+    <button onclick="document.getElementById('diudiudiu').play()"> Diudiudiu</button>
+</div>
+
+<div class="töihinnappi">
+    <audio id="töihin" src="assets/töihin.mp3"></audio>
+    <button onclick="document.getElementById('töihin').play()"> Mene töihin</button>
+</div>
+
+<div class="aijainappi">
+    <audio id="aijai" src="assets/aijai.mp3"></audio>
+    <button onclick="document.getElementById('aijai').play()"> Aijai</button>
+</div>
+
+<div class="yhelläkädellänappi">
+    <audio id="yhelläkädellä" src="assets/yhelläkädellä.mp3"></audio>
+    <button onclick="document.getElementById('yhelläkädellä').play()"> Ei onnistu</button>
+</div>
+
+<div class="ninappi">
+    <audio id="ni" src="assets/ni.mp3"></audio>
+    <button onclick="document.getElementById('ni').play()"> Ni!</button>
+</div>
+
+<div class="playboynappi">
+    <audio id="playboy" src="assets/playboy.mp3"></audio>
+    <button onclick="document.getElementById('playboy').play()"> Playboy</button>
+</div>
+
+<div class="eiharmitanappi">
+    <audio id="eiharmita" src="assets/eiharmita.mp3"></audio>
+    <button onclick="document.getElementById('eiharmita').play()"> Ei harmita</button>
+</div>
+
+<div class="tjäreborgnappi">
+    <audio id="tjäreborg" src="assets/tjäreborg.mp3"></audio>
+    <button onclick="document.getElementById('tjäreborg').play()"> Tjäreborg</button>
+</div>
+
+<div class="vounappi">
+    <audio id="vou" src="assets/vou.mp3"></audio>
+    <button onclick="document.getElementById('vou').play()"> Vou!</button>
+</div>
+
+<div class="tossajanappi">
+    <audio id="tossaja" src="assets/tossaja.mp3"></audio>
+    <button onclick="document.getElementById('tossaja').play()"> Tossaja</button>
+</div>
+
+<div class="eisiitänappi">
+    <audio id="eisiitä" src="assets/eisiitä.mp3"></audio>
+    <button onclick="document.getElementById('eisiitä').play()"> Ei siitä</button>
+</div>
+
+<div class="phukkinappi">
+    <audio id="phukki" src="assets/phukki.mp3"></audio>
+    <button onclick="document.getElementById('phukki').play()"> Phukki</button>
+</div>
+
+<div class="kahvinappi">
+    <audio id="kahvi" src="assets/kahvi.mp3"></audio>
+    <button onclick="document.getElementById('kahvi').play()"> Kahvia</button>
 </div>
 </body>
 
