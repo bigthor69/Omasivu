@@ -1,6 +1,9 @@
+body {
+    background-color: rgb(80, 156, 156);
+}
 .box {
-    width: 270px;
-    height: 220px;
+    width: 400px;
+    height: 200px;
     border: 5px solid black; 
     position: relative;
     text-align: center;
@@ -8,7 +11,7 @@
 }
 
 .box2 {
-    width: 200px;
+    width: 250px;
     height: 200px;
     border: 5px black; 
     position: relative;
