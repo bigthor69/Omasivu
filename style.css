@@ -1,5 +1,6 @@
 body {
     background-color: rgb(80, 156, 156);
+    font-family:Helvetica;
 }
 .info {
     width: 400px;
@@ -17,16 +18,16 @@ body {
     position: relative;
     background-color: wheat;
     text-align: center;
-    top: -209px;
-    left: 1100px;
+    top: 290px;
+    left: 10px;
 }
 
-.viktor {
+.niilopeukku {
     width: 300px;
     height: 500px;
-    border: 5px black; 
     position: relative;
-    top: -400px;
+    top: -946px;
+    left: 1100px;
 }
 
 .yhttiedot {
@@ -54,6 +55,30 @@ body {
     width: 286px;
     height: 176px;
     position: relative;
-    left: 1075px;
-    top: -1276px;
+    left: 0px;
+    top: -976px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+  }
+
+.video iframe {
+    position: absolute;
+    top: -1000px;
+    left: 250px;
+    width: 80%;
+    height: 80%;
+  }
+
+.niilotxt {
+    width: 350px;
+    height: 55px;
+    position: relative;
+    text-align: center;
+    background-color: wheat;
+    border: 3px solid black; 
+    left: 775px;
+    top: -1076px;
 }
