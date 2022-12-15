@@ -10,6 +10,35 @@
         width: 95%;
         }
   </style>
+    <script>
+        function PlaySound(on) {
+        var path = "./on.mp3"
+        var snd = new Audio("./on.mp3");
+        snd.play();
+    }
+    </script>
+        <script>
+            function PlaySound(on) {
+            var path = "./5k5.mp3"
+            var snd = new Audio("./5k5.mp3");
+            snd.play();
+        }
+        </script>
+            <script>
+                function PlaySound(on) {
+                var path = "./bengalintiikeri.mp3"
+                var snd = new Audio("./bengalintiikeri.mp3");
+                snd.play();
+            }
+            </script>
+    <style>
+        button {
+            text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        }
+    </style>
 </head>
 <!--siisti sivu eiks vaa-->
 <body>
@@ -35,15 +64,15 @@
     <h1>Faktatietoa niilo22</h1>
 
     <h4>Mistä tulee nimi "niilo22"?</h4>
-    <p>Niilo ja kaveri keksivät Youtuben käyttäjänimeksi "niilo", mutta se oli varattu ja youtube ehdotti "niilo22". </p>
+        <p>Niilo ja kaveri keksivät Youtuben käyttäjänimeksi "niilo", mutta se oli varattu ja youtube ehdotti "niilo22". </p>
     <h4>Mikä Niilossa kiinnostaa?</h4>
-    <p>Niilo raottaa ovea syrjäytyneen aikuisen elämään. Niilo on yhtä aikaa sekä hulvattoman hauska, että traaginen ihmiskohtalo.</p>
+        <p>Niilo raottaa ovea syrjäytyneen aikuisen elämään. Niilo on yhtä aikaa sekä hulvattoman hauska, että traaginen ihmiskohtalo.</p>
     <h4>Onko Niilolla kehitysvammaa?</h4>
-    <p>Niilolle diagnosoitiin F81.3 "Monimuotoinen oppimiskyvyn häiriö" marraskuussa 2018.</p>
+        <p>Niilolle diagnosoitiin F81.3 "Monimuotoinen oppimiskyvyn häiriö" marraskuussa 2018.</p>
     <h4>Onko Niilo käynyt peruskoulun?</h4>
-    <p>Niilo kävi ekan luokan kahdesti ja joutui apukouluun. Hän on kertonut saaneensa kotiläksyjä kesälomiksi. </p>
+        <p>Niilo kävi ekan luokan kahdesti ja joutui apukouluun. Hän on kertonut saaneensa kotiläksyjä kesälomiksi. </p>
     <h4>Onko Niilolla koulutus ja/tai työpaikka?</h4>
-    <p>Niilo on koulutukseltaan levyseppähitsaaja. Hän on hakenut vuosina 2015 ja 2016 varastoalan koulutukseen, muttei päässyt sisään kummallakaan kerralla. </p>
+        <p>Niilo on koulutukseltaan levyseppähitsaaja. Hän on hakenut vuosina 2015 ja 2016 varastoalan koulutukseen, muttei päässyt sisään kummallakaan kerralla. </p>
 </div>
 
 <div class="niilopeukku">
@@ -55,15 +84,15 @@
     <h3>Yhteystietoja</h3>
     <p>Sähköposti: aatu.penttinen05@gmail.com</p>
     <p>Puhelinnumero: 0405530608</p>
-    <p>Tilinumero (antakaa rahaa pls): FI21 5290 3320 0336 42</p>
+    <p>Tilinumero <em>(antakaa rahaa pls tähän sivuun meni paljon aikaa)</em>: FI21 5290 3320 0336 42</p>
 </div>
 
 <div class="niilokuva">
     <img src="assets/niilo22.png" alt="niilo22">
 </div>
 
-<div class="niilotxt">
-<h1>Alla Niilon uusin video</h1>
+<div class="yttxt">
+    <h1>Alla Niilon uusin video</h1>
 </div>
 
 <div class="video">
@@ -92,20 +121,32 @@
 </div>
 
 <div class="niilolinkit">
-    
-
+    <h1>Tässä Niiloon liittyviä linkkejä</h1>
+    <a href="https://www.youtube.com/channel/UC7WlCq3wvnxgBEbVA9Dyo9w" target="_blank">Niilon Youtubekanava</a><br>
+    <a href="https://ylilauta.org/tubetus/131094925" target="_blank">Ylilauta</a><br>
+    <a href="https://niilo22.fi/" target="_blank">Niilo22 fanisivu</a><br>
+    <a href="https://www.instagram.com/niilo222/?hl=fi" target="_blank">Niilon instagram</a><br>
+    <a href="https://www.tiktok.com/@niilo2220" target="_blank">Niilon Tiktok</a><br>
+    <a href="https://fi.wikipedia.org/wiki/Mikael_Kosola" target="_blank">Niilon Wikipedia-sivu</a><br>
+    <a href="https://steamcommunity.com/profiles/76561198102730074" target="_blank">Niilon Steam-profiili</a><br>
+    <a href="https://www.youtube.com/@niilo22live/streams" target="_blank">Niilon Livestreamkanava</a>
 </div>
 
+<div class="onnappi">
+    <button type="button" onclick="PlaySound('on')"> On!</button>
+</div>
 
+<div class="viiskviisnappi">
+    <button type="button" onclick="PlaySound('5k5')"> 5/5!</button>
+</div>
 
+<div class="napittxt">
+    <h1>Niilon luikautuksia</h1>
+</div>
 
-
-
-
-
-
-
-
+<div class="bengalintiikerinappi">
+    <button type="button" onclick="PlaySound('bengalintiikeri')"> Bengalintiikeri</button>
+</div>
 </body>
 
 </html>
