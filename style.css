@@ -1,6 +1,6 @@
 body {
     background-color: rgb(38, 189, 101);
-    font-family:Helvetica;
+    font-family:Helvetica,Arial,sans-serif;
 }
 .info {
     width: 400px; height: 200px; border: 5px solid black; position: relative; text-align: center; background-color:wheat;
@@ -34,8 +34,8 @@ body {
     position: absolute;top: -1000px;left: 250px;width: 80%;height: 80%;
   }
 
-.niilotxt {
-    width: 350px;height: 55px;position: relative;text-align: center;background-color: wheat;border: 3px solid black; left: 775px;top: -1076px;
+.yttxt {
+    width: 350px;height: 55px;position: relative;text-align: center;left: 775px;top: -1076px;
 }   
 
 .näyttelijät {
@@ -47,13 +47,31 @@ body {
 }
 
 .näyttelijättxt {
-    width: 470px;height: 185px;border: 5px solid black;background-color: rgb(48, 255, 245);position: absolute;top: 1700px;
+    width: 470px;height: 185px;border: 5px solid black;background-color: rgb(40, 201, 193);position: absolute;top: 1700px;
 }
 
 .niilolinkit {
-    width: 500px;height: 300px;border: 5px solid black;background-color: red;position: absolute;left: 1385px;top: 1700px;
+    width: 500px;height: 300px;border: 5px solid black;background-color: rgb(218, 47, 47);position: absolute;left: 1385px;top: 1700px; text-align: center;line-height: 1.5;
 }
 
 .onniteksti {
-    width: 470px;height: 100px;background-color: rgb(48, 255, 245);border: 5px solid black;position: absolute;top: 2195px;
+    width: 470px;height: 100px;background-color: rgb(40, 201, 193);border: 5px solid black;position: absolute;top: 2195px;
+}
+
+.onnappi {
+    width: 50px;height: 50px;position: absolute;top: 2500px;left: 500px;top: 1800px;
+
+}
+
+.viiskviisnappi {
+    width: 20px;height: 20px;position: absolute;left: 720px;top: 1800px;
+
+}
+
+.bengalintiikerinappi {
+    width: 20px;height: 20px;position: absolute;left: 950px;top: 1800px; text-align: center;
+}
+
+.napittxt {
+    width: 875px;height: 55px;position: absolute;text-align: center;left: 494px;top: 1700px; background-color: wheat;border: 5px solid black;
 }
