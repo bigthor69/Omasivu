@@ -17,15 +17,17 @@
         snd.play();
     }
     </script>
+        
         <script>
-            function PlaySound(on) {
+            function PlaySound(viis) {
             var path = "./5k5.mp3"
             var snd = new Audio("./5k5.mp3");
             snd.play();
         }
         </script>
-            <script>
-                function PlaySound(on) {
+           
+           <script>
+                function PlaySound(tiikeri) {
                 var path = "./bengalintiikeri.mp3"
                 var snd = new Audio("./bengalintiikeri.mp3");
                 snd.play();
@@ -133,11 +135,13 @@
 </div>
 
 <div class="onnappi">
-    <button type="button" onclick="PlaySound('on')"> On!</button>
+    <audio id="on" src="on.mp3"></audio>
+    <button onclick="document.getElementById('on').play()"> On!</button>
 </div>
 
 <div class="viiskviisnappi">
-    <button type="button" onclick="PlaySound('5k5')"> 5/5!</button>
+    <audio id="5k5" src="5k5.mp3"></audio>
+    <button onclick="document.getElementById('5k5').play()"> 5/5!</button>
 </div>
 
 <div class="napittxt">
@@ -145,7 +149,8 @@
 </div>
 
 <div class="bengalintiikerinappi">
-    <button type="button" onclick="PlaySound('bengalintiikeri')"> Bengalintiikeri</button>
+    <audio id="bengalintiikeri" src="bengalintiikeri.mp3"></audio>
+    <button onclick="document.getElementById('bengalintiikeri').play()"> Bengalintiikeri</button>
 </div>
 </body>
 
