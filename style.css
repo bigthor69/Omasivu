@@ -1,0 +1,24 @@
+.box {
+    width: 270px;
+    height: 220px;
+    border: 5px solid black; 
+    position: relative;
+    text-align: center;
+    background-color:wheat;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    border: 5px black; 
+    position: relative;
+    background-color: wheat;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border: 5px black; 
+    position: relative;
+    background-color: wheat;
+}
