@@ -3,122 +3,57 @@ body {
     font-family:Helvetica;
 }
 .info {
-    width: 400px;
-    height: 200px;
-    border: 5px solid black; 
-    position: relative;
-    text-align: center;
-    background-color:wheat;
+    width: 400px; height: 200px; border: 5px solid black; position: relative; text-align: center; background-color:wheat;
 }
 
 .linkit {
-    width: 250px;
-    height: 170px;
-    border: 5px solid black; 
-    position: relative;
-    background-color: wheat;
-    text-align: center;
-    top: 290px;
-    left: 10px;
+    width: 250px;height: 170px;border: 5px solid black; position: relative;background-color: wheat;text-align: center;top: 290px;left: 10px;
 }
 
 .niilopeukku {
-    width: 300px;
-    height: 500px;
-    position: relative;
-    top: -946px;
-    left: 1100px;
+    width: 300px;height: 500px;position: relative;top: -946px;left: 1100px;
 }
 
 .yhttiedot {
-    width: 400px;
-    height: 200px;
-    border: 5px solid black; 
-    position: relative;
-    text-align: center;
-    background-color:wheat;
-    top: -1200px;
+    width: 400px;height: 200px;border: 5px solid black; position: relative;text-align: center;background-color:wheat;top: -1200px;
 }
 
 .niiloinfo {
-    width: 600px;
-    height: 550px;
-    border: 5px solid black; 
-    position: relative;
-    text-align: center;
-    background-color:wheat;
-    left: 450px;
-    top: -390px;
+    width: 600px;height: 550px;border: 5px solid black; position: relative;text-align: center;background-color:wheat;left: 450px;top: -390px;
 }
 
 .niilokuva {
-    width: 286px;
-    height: 176px;
-    position: relative;
-    left: 0px;
-    top: -976px;
+    width: 286px;height: 176px;position: relative;left: 0px;top: -976px;
 }
 
 .video {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;padding-bottom: 56.25%; /* 16:9 */
   }
 
 .video iframe {
-    position: absolute;
-    top: -1000px;
-    left: 250px;
-    width: 80%;
-    height: 80%;
+    position: absolute;top: -1000px;left: 250px;width: 80%;height: 80%;
   }
 
 .niilotxt {
-    width: 350px;
-    height: 55px;
-    position: relative;
-    text-align: center;
-    background-color: wheat;
-    border: 3px solid black; 
-    left: 775px;
-    top: -1076px;
+    width: 350px;height: 55px;position: relative;text-align: center;background-color: wheat;border: 3px solid black; left: 775px;top: -1076px;
 }   
 
 .näyttelijät {
-    width: 252px;
-    height: 335px;
-    position: absolute;
-    left: 8px;
-    top: 2310px;
+    width: 252px;height: 335px;position: absolute;left: 8px;top: 2310px;
 }
 
 .näyttelijät2 {
-    width: 479px;
-    height: 268px;
-    position: absolute;
-    left: 8px;
-    top: 1900px;
+    width: 479px;height: 268px;position: absolute;left: 8px;top: 1900px;
 }
 
 .näyttelijättxt {
-    width: 470px;
-    height: 185px;
-    border: 5px solid black;
-    background-color: rgb(48, 255, 245);
-    position: absolute;
-    top: 1700px;
+    width: 470px;height: 185px;border: 5px solid black;background-color: rgb(48, 255, 245);position: absolute;top: 1700px;
 }
 
 .niilolinkit {
-    width: 0;
-    height: 0;
-    border: 5px solid black;
+    width: 500px;height: 300px;border: 5px solid black;background-color: red;position: absolute;left: 1385px;top: 1700px;
 }
 
 .onniteksti {
-    width: 470px;
-    height: 100px;
-    background-color: rgb(48, 255, 245);
-    border: 5px solid black;
-    position: absolute;
-    top: 2195px;
+    width: 470px;height: 100px;background-color: rgb(48, 255, 245);border: 5px solid black;position: absolute;top: 2195px;
 }
