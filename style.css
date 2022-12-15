@@ -12,16 +12,21 @@ body {
 
 .box2 {
     width: 250px;
-    height: 200px;
-    border: 5px black; 
+    height: 170px;
+    border: 5px solid black; 
     position: relative;
     background-color: wheat;
+    text-align: center;
+    top: -200px;
+    left: 450px;
 }
 
 .box3 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 500px;
     border: 5px black; 
     position: relative;
     background-color: wheat;
+    left: 50px;
+    top: -100px;
 }
