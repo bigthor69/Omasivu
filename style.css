@@ -1,7 +1,7 @@
 body {
     background-color: rgb(80, 156, 156);
 }
-.box {
+.info {
     width: 400px;
     height: 200px;
     border: 5px solid black; 
@@ -10,7 +10,7 @@ body {
     background-color:wheat;
 }
 
-.box2 {
+.linkit {
     width: 250px;
     height: 170px;
     border: 5px solid black; 
@@ -21,7 +21,7 @@ body {
     left: 1100px;
 }
 
-.box3 {
+.viktor {
     width: 300px;
     height: 500px;
     border: 5px black; 
@@ -29,7 +29,7 @@ body {
     top: -400px;
 }
 
-.box4 {
+.yhttiedot {
     width: 400px;
     height: 200px;
     border: 5px solid black; 
@@ -39,7 +39,7 @@ body {
     top: -1200px;
 }
 
-.box5 {
+.niiloinfo {
     width: 600px;
     height: 550px;
     border: 5px solid black; 
@@ -48,4 +48,12 @@ body {
     background-color:wheat;
     left: 450px;
     top: -390px;
+}
+
+.niilokuva {
+    width: 286px;
+    height: 176px;
+    position: relative;
+    left: 1075px;
+    top: -1276px;
 }
