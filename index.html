@@ -3,34 +3,39 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Omasivu</title>
+  <title>Niilon fanisivu</title>
   <link rel="stylesheet" href="style.css">
-  <style>
+  <link rel="stylesheet" href="niilonapit.css">
+  <script src="toggle.js"></script>
+ <style>
         html, body {
         width: 95%;
         }
   </style>
    <style>
         button {
-            text-align: center;
+        text-align: center;
         font-size: 28px;
         padding: 20px;
         width: 200px;
-        border: 2px solid black;
+        border: 3px solid black;
         border-radius: 15px;
-        }
+        background-color: #FA7268;
+        color: aliceblue;
+        font-size: 28px;
+        cursor: pointer;
+    }
     </style>
-    <style>
-        body {
-            background-image: url("assets/vt2.png")
-        }
+        <style>
+            body {
+                background-image: url("assets/vt.gif")
+            }
         </style>
 </head>
 <!--siisti sivu eiks vaa, menny kokonainen päivä tässä :))-->
 <body>
-    <audio id="backroundaudio" src="backroundaudio.mp3" loop="loop"></audio>
 
-    <div class="info">
+<div class="info">
     <h1>Aatu Penttinen</h1>
 
     <p>Harrastukset:</p>
@@ -201,6 +206,14 @@
 <div class="kahvinappi">
     <audio id="kahvi" src="assets/kahvi.mp3"></audio>
     <button onclick="document.getElementById('kahvi').play()"> Kahvia</button>
+</div>
+
+<div class="themenappi">
+<audio id="audio" src="assets/theme.mp3" preload="auto"></audio>
+<button id="themenappi" type="button"
+onclick="javascript:toggleSound();">
+Niilon introbiisi
+</button>
 </div>
 
 </body>
