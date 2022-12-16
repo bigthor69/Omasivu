@@ -1,2 +1,2 @@
 # Omasivu
-Tässä ois mun oma sivu
+Tässä ois mun niilo fanisivu
