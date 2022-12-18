@@ -1,2 +1,3 @@
 # Omasivu
-Tässä ois mun niilo fanisivu
+Tässä ois mun niilo fanisivu. Alempana linkki sivulle
+https://bigthor69.github.io/Omasivu/
